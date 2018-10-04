@@ -1,0 +1,201 @@
+/* ---------- PAGE LAYOUT ---------- */
+.cuerpo {
+   position: relative;
+   width:400px;
+   height: 550px;
+}
+h1 .logo {  
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+   font-size: 8rem;
+   color: white;
+   text-shadow:  -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+   left: -7px;
+   top: -18px;
+   letter-spacing: -14px;
+ 
+}
+
+h1 .pre { 
+   font-family: 'Raleway', sans-serif; 
+   font-size: 10px;
+   position: absolute;
+   left: 12%;
+   top: 44px;
+}
+
+h1 .title { 
+   font-family: 'Sumana', serif; 
+   position: absolute;
+   font-size: 70px;
+   left: 50%;
+   top: 7%;
+   line-height: 35px;
+   color: #120A2A;
+   text-shadow:  -0px -0px 0 #F781D8, 0px -0px 0 #F781D8, -0px 0px 0 #F781D8, 0px 0px 0 #F781D8;
+   
+}
+
+h2.subtitle { 
+   font-family: 'Sumana', serif; 
+   position: absolute;
+   font-size: 12px;
+   color: #120A2A;
+   text-shadow:  -0px -0px 0 #F781D8, 0px -0px 0 #F781D8, -0px 0px 0 #F781D8, 0px 0px 0 #F781D8;
+   font-style: italic;
+   top:3%;
+   right: 3%
+}
+
+.lower { 
+   font-family: 'Rozha One', serif;  
+}
+
+.up-left p.gq { 
+   font-family: 'Raleway', sans-serif;
+   position: absolute;
+   font-size: 6px;
+   top: 18%;
+   left: 5%;
+}
+
+img {
+   position:absolute;
+   width: 400px;
+   height: 550px;
+   position: absolute;   
+}
+
+.up-left .issue {
+   position: absolute;
+   left: 5%;
+   top: 20%;
+   font-size: 18px;   
+}
+
+.up-left .issue span{
+   font-size: 40px;
+   line-height: 26px;
+}
+
+.uk {
+   position: absolute;
+   font-size:6px;
+   top: 29%;
+   left: 5%;
+   letter-spacing: none;
+   text-transform: uppercase;
+}
+.up-left h4 {
+   position: absolute;
+   top: 33%;
+   left: 5%;
+}
+.up-left h4 span{
+   line-height: 22px;
+   background-color: #120A2A;
+   color: white;
+   padding-left: 3px;
+   padding-right: 3px;
+   font-size: 15px;
+   margin-top: 1px;
+ }
+.up-left h4 span:last-child{
+   font-size: 10px;
+   padding-top: 3px;
+   border: 10px;
+   box-sizing: border-box;
+}
+.up-right h3{
+   position: absolute;
+   right: 13%;
+   top: 20%;
+   color: white;
+   font-size: 40px;
+}
+.low-left{
+   position: absolute;
+   top: 70%;
+   left: 5%;
+}
+.low-left h4 span{
+   background-color: white;
+   color: #120A2A;
+   line-height: 22px;
+   font-size: 15px;
+   padding-top: 0px;
+   padding-left: 3px;
+   padding-right: 3px;
+}
+
+.low-right h4.block-text.white :first-child{
+   position: absolute;
+   line-height: 22px;
+   top: 58%;
+   right: 14%;
+   background-color: white;
+   color: black;
+   font-size: 15px;
+   padding-top: 0px;
+   padding-left: 3px;
+   padding-right: 3px;
+   -webkit-transform: rotate(-6deg);
+           transform: rotate(-6deg);
+}
+.low-right h4.block-text.white :last-child{
+   position: absolute;
+   line-height: 22px;
+   top: 63%;
+   right: 9%;
+   background-color: white;
+   color: black;
+   font-size: 16px;
+   padding-top: 0px;
+   padding-left: 3px;
+   padding-right: 3px;
+   -webkit-transform: rotate(3deg);
+           transform: rotate(3deg);
+}
+.low-right h4.block-text.white :only-child{
+   position: absolute;
+   line-height: 22px;
+   top: 72%;
+   right: 10%;
+   background-color: white;
+   color: black;
+   font-size: 16px;
+   padding-top: 0px;
+   padding-left: 3px;
+   padding-right: 3px;
+   -webkit-transform: rotate(3deg);
+           transform: rotate(3deg);
+}
+.low-right h4.block-text.black1 span{
+   position: absolute;
+   line-height: 22px;
+   top: 70%;
+   right: 29%;
+   background-color: #120A2A;
+   color: white;
+   font-size: 16px;
+   padding-top: 0px;
+   padding-left: 3px;
+   padding-right: 3px;
+   -webkit-transform: rotate(-15deg);
+           transform: rotate(-15deg);
+}
+
+.low-right h4.block-text.black2 span{
+   position: absolute;
+   line-height: 22px;
+   top: 81%;
+   right: 9%;
+   background-color: #120A2A;
+   color: white;
+   font-size: 16px;
+   padding-top: 0px;
+   padding-left: 3px;
+   padding-right: 3px;
+   -webkit-transform: rotate(-7deg);
+           transform: rotate(-7deg);
+}
