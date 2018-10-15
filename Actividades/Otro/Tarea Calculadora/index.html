@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    
+</head>
+<body>
+    <div id="calculadora">
+        <div id="fila0">
+            <input type="text" name="resultado" value="0" id="total">
+        </div>
+        <div id="fila1">
+            <input type="button" class="clear" onClick="borrar()" value="C">
+            <input type="button" class="calculos" onClick="signo()" value="±">
+            <input type="button" class="calculos" onClick="porcentaje()" value="%">
+            <input type="button" class="calculos" onClick="calculos(4)" value="÷">
+        </div>
+        <div id="fila2">
+            <input type="button" onclick="escribir(this.value)" value="7">
+            <input type="button" onclick="escribir(this.value)" value="8">
+            <input type="button" onclick="escribir(this.value)" value="9">
+            <input type="button" class="calculos" onClick="calculos(3)" value="×">
+        </div>
+        <div id="fila3">
+            <input type="button" onclick="escribir(this.value)" value="4">
+            <input type="button" onclick="escribir(this.value)" value="5">
+            <input type="button" onclick="escribir(this.value)" value="6">
+            <input type="button" class="calculos" onClick="calculos(2)" value="-">
+        </div>
+        <div id="fila4">
+            <input type="button" onclick="escribir(this.value)" value="1">
+            <input type="button" onclick="escribir(this.value)" value="2">
+            <input type="button" onclick="escribir(this.value)" value="3">
+            <input type="button" class="calculos" onClick="calculos(1)" value="+">
+        </div>
+        <div id="fila5">
+            <input type="button" onclick="escribir(this.value)" value="0">
+            <input type="button" onClick="escribir('.')" value=".">
+            <input type="button" class="igual" onClick="igual()" value="=">
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

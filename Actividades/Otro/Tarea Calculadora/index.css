@@ -1,0 +1,36 @@
+
+#fila0 {
+    display: flex;
+    justify-content: center;
+}
+#fila1 {
+    display: flex;
+    justify-content: center;
+}
+#fila2 {
+    display: flex;
+    justify-content: center;
+}
+#fila3 {
+    display: flex;
+   justify-content: center;
+}
+#fila4 {
+    display: flex;
+   justify-content: center;
+}
+#fila5 {
+    display: flex;
+    justify-content: center;
+}
+input {
+    padding: 5vh;
+    width: 15vh;
+}
+#fila5 :first-child{
+    width: 30vh;
+}
+#total{
+    width: 49vh;
+    text-align: right;
+}
