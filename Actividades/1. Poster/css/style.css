@@ -1,0 +1,42 @@
+section{
+  position: relative;
+  width: 500px;
+  height: 53vh;
+  overflow: hidden;
+}
+img{
+  background-image: url("http://raiscake.me/files/fashion-bg.jpg");
+  background-position: center;
+  background-position-y: 30%;
+  width: 100%;
+  position: absolute;
+  top: -12vh;
+}
+h2{
+  text-align: center;
+  color: black;
+  position: absolute;  
+  top: 45%;
+  text-transform: lowercase;
+  left: 30vh;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 500;
+}
+span{
+  font-size: 3.2em;
+  text-transform: uppercase;
+  position: absolute;
+  text-align: center;
+  color: black;
+  left: 12vh;
+  bottom: 9vh;
+}
+
+div {
+  width: 40vh;
+  border: 0.5px solid grey;
+  position: absolute;
+  left: 20vh;
+  bottom: 8vh;
+}

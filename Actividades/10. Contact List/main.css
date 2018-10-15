@@ -1,0 +1,72 @@
+#autores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    width: 52vh;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-image: linear-gradient(-90deg, #be1e89, #47bdc5);
+}
+
+body {
+  background-color: white;
+}
+
+article {
+    background-color:beige;
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 3%;
+}
+
+section article{
+    background-image: url(images/6726.jpg);
+    background-size: cover;
+}
+
+aside article {
+    background-image: url(images/5149.jpg);
+    background-size: cover;
+}
+
+figcaption{
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    margin-top: 2vh;
+    width: 35vh;
+    text-transform: capitalize;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    border: double #aa2a79;
+    border-radius: 5%;
+}
+
+img:hover {
+    width: 25vh;
+    transition: all 0.1s;
+}

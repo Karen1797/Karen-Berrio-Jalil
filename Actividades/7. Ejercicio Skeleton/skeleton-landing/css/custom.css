@@ -1,0 +1,114 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button {
+  border-radius: 100px;
+}
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.phones {
+  position: relative;
+}
+.phone {
+  position: relative;
+  max-width: 80%;
+  margin: 3rem auto -12rem;
+}
+.phone + .phone {
+  display: none;
+}
+
+/* Values
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.values {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding-bottom: 5rem;
+}
+.value-multiplier {
+  margin-bottom: .5rem;
+  color: #11DFC7;
+}
+.value-heading {
+  margin-bottom: .3rem;
+}
+.value-description {
+  opacity: .8;
+  font-weight: 300;
+}
+
+/* Help
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.get-help {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Categories
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.categories {
+  background-image: url('../images/values-bg.jpg');
+  background-size: cover;
+  color: #fff;
+}
+.categories .section-description {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 950px) {
+  .section {
+    padding: 0rem 0 35rem;
+    height: 43vh;
+  }
+  .section-heading {
+    margin-top: 30vh;
+  }
+  .phone {
+    position: relative;
+    max-width: 58%;
+    margin: -6rem auto -53rem;
+    right: -15vh;
+  }
+  .phone + .phone {
+    display: initial;
+    margin-right: 18.5vh;
+    max-width: 63%;
+  }
+  .value-multiplier {
+    font-size: 7vh;
+  }
+  .value-heading {
+    font-size: 3.5vh;
+  }
+  .value-description {
+    width: 44vh;
+  }
+  .section.values{
+    height: 32vh;
+  }
+  .section.get-help{
+    height: 5vh;
+  }
+  .section-description{
+    width: 86vh;
+    margin: 0% 0% 1% 32vh;
+  }
+  .section.categories {
+    padding: 1vh 0vh 60vh 0vh;
+    height: 62vh;
+  }
+  .hero-heading {
+    margin-top: 15vh;
+  }
+}
