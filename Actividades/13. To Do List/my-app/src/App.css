@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+#barraNav {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0 auto;
+}
+ul li {
+  color:white;
+  margin: 5vh;
+  font-size: 1.5em;
+  list-style: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pagPrincipal {
+  background-image: url("libreta.jpg");
+  background-position: center;
+  background-size: cover;
+  background-position-y: 0%;
+  width: 100vh;
+  height: 100vh;
+}
+#pagina {
+  background-image: linear-gradient(-180deg, #e48e0d, #e9a718);
+  min-height: 100vh;
+}
+#bienvenida {
+  font-size: 2em;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 1vh;
+}
+#contPrincipal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.aplicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8%;
+  border: 3px solid white;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+button {
+  margin: 3vh;
+  padding: 2vh;
+  font-size: 1em;
+  color: orange;
+  font-weight: bold;
+  border-radius: 8%;
+}
+button:hover {
+  background-color: #413f3e;
+}
+.icono {
+  background-image: url('estrella.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 2vh;
+  height: 2vh;
+}
+.lista :nth-child(1n) {
+  background-color: #413f3e;
+  min-width: 28vh;
+  margin: 1vh;
+  padding: 1vh;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
