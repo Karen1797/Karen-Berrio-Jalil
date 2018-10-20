@@ -75,7 +75,9 @@ class ToDoListSection extends Component{
   borrarActividad(index){
     let actividadesArr = this.state.actividades;
     actividadesArr.splice(index,1);
-    this.setState({actividades:actividadesArr})
+    this.setState({
+      actividades:actividadesArr
+    })
   }
 
   presionar= (event)=> {
@@ -100,15 +102,18 @@ class ToDoListSection extends Component{
             <div className="aplicacion">
 
                 <h1>To Do List</h1>
-                <div className="lista">
-                   {actividades}
-                </div>
+                <ol>
+                  <div className="lista">
+                     {actividades}
+                  </div>
+                </ol>
                 <input type="text"
                     ref ={((input)=>{this.ingresarTexto=input })}
                     className="cuadroTexto"
                     onChange={elementos=>this.actualizarElementos(elementos)}
                     onKeyPress={this.presionar.bind(this)}
                     value = {this.state.elementos}
+                    maxLength ="60"
                 />
                 <button className="agregar" onClick={this.agregarActividad.bind(this)}>Agregar</button>
 
